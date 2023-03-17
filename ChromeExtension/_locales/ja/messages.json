@@ -1,0 +1,14 @@
+{
+  "appName" : {
+    "message" : "fraser_ec ",
+    "description" : "Web ストアに表示されるアプリケーションのタイトル。"
+  },
+  "appShortName" : {
+    "message" : "fraser_ec",
+    "description" : "アプリケーションの短いタイトル"
+  },
+  "appDesc" : {
+    "message" : "fraser文字変換が手軽にできる拡張機能です \n下記リポジトリの内容ほとんどそのまま\n https://github.com/Naga564/Fraser \n ※Exsample Chrome Extension",
+    "description" : "Web ストアに表示されるアプリケーションの説明。"
+  }
+}

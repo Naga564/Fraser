@@ -1,0 +1,13 @@
+{
+  "name": "__MSG_appName__",
+  "short_name": "__MSG_appShortName__",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "default_locale": "ja",
+  "description": "__MSG_appDesc__",
+  
+  "action": {
+    "default_title": "URLBlocker",
+    "default_popup": "public/popup.html"
+  }
+}
