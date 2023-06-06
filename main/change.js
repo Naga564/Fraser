@@ -44,7 +44,7 @@ function checkCharacter(text){
         case "M":return "ꓟ";
         case "N":return "ꓠ";
         case "O":return "ꓳ";
-        case "p":return "ꓑ";
+        case "P":return "ꓑ";
         case "R":return "ꓣ";
         case "S":return "ꓢ";
         case "T":return "ꓔ";
