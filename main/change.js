@@ -4,7 +4,8 @@ var button = document.getElementById("button");
 var text_id = document.getElementById("text");
 
 button.addEventListener("click",function(){
-   inputText = prompt("変換したい文字列を入力してください");
+    inputText = prompt("変換したい文字列を入力してください");
+    console.log("変換前文字列：" + inputText);
     changeText(inputText);
 });
 
@@ -12,6 +13,10 @@ button.addEventListener("click",function(){
 function changeText(text){
     for(var i = 0 ; i < text.length ; i++){
         var character = text.substr(i,1);
+
+        //出力して確認
+        console.log(character + " ->" + checkCharacter(character));
+        
         outputText = outputText + checkCharacter(character);
     }
     text_id.innerHTML = outputText;
